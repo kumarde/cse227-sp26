@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/local.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700" rel="stylesheet">
+
+    <title>CSE227: Graduate Computer Security</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-10">
+          <h1>Graduate Computer Security</h1>
+          <h3>UCSD CSE 227, Winter 2025</h3>
+
+          <p> This graduate-level course focuses on computer security: the study of computer systems in the presence of an adversary. The course is a breadth course designed to give students exposure to many aspects of computer security, with topics including systems security, web security, edge security, and user privacy. The course will introduce students to modern research challenges in the area and the standards for how we design safer and more secure computer systems. Students will primarily read, synthesize, present, and discuss research papers. The course will culminate in a presentation of a quarter-long research project that students will conduct in small groups. </p>
+
+          <p> If you are electing to take this course for a comprehensive exam, please follow the requirements for the exam here: <a href="/cse227-wi25/227-comprehensive-exam.pdf" target="_blank"> [link] </a></p>
+
+          <h2>Course Information</h2>
+
+		  <p><b>Lecture:</b> Tu/Th 12:30&ndash;1:50 PM.
+		  <a href="https://g.co/kgs/B92fz6G">Ridge Walk Academic Complex 0121</a>.
+          
+          <p><b>Instructor:</b> <a href="https://kumarde.com">Deepak Kumar</a><br/>
+             Office Hours: Tuesday 2:00&ndash;3:00 PM, or by appointment, CSE 3248.</p>
+          
+          <p><b>Teaching Assistant:</b> Tianyi Shan<br/>
+             Office Hours: Friday 11am – 12pm via Zoom (available on Canvas).</p>
+          
+	      <p><b>Prerequisites:</b> Some systems and cybersecurity knowledge is helpful, but not required. This is a research focused course, so students who are excited to explore novel topics are encouraged to enroll.</p>
+
+          <p><b>Communication:</b> We use <a href="https://canvas.ucsd.edu/courses/61827">Canvas</a> for announcements; discussion happens on <a href="https://piazza.com/ucsd/winter2025/cse227/home">Piazza.</a> <a href="https://docs.google.com/document/d/1gFhgqCezSXiHfKvNjchw2SGGXgZ31gWZbOraS4Lpr1g/edit?tab=t.0" target="_blank">You can find the syllabus here.</a></p> 
+          <p><b>Submissions:</b> All course assignments will be submitted through Gradescope. Entry Code: <b>WWEYY2</b>.
+          <h2>Schedule</h2>
+          <p>The tentative schedule and readings for the class are below:</p>
+          <div class="papers">
+            <div class="row">
+              <div class="col col-lg-6">
+				<h4>1/7&nbsp;&nbsp;Introduction and Administrivia</h4>
+                <p> Course introduction, definitions, reflections on trusting trust. <a href="/cse227-wi25/lectures/lecture_1.pdf" target="_blank">[slides]</a></p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>1/9&nbsp;&nbsp;Threat Models & the Science of Security</h4>
+                <p>How do we do computer security research? What are our goals? How do we measure those goals? <a href="/cse227-wi25/lectures/lecture_2.pdf" target="_blank">[slides]</a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>1/14&nbsp;&nbsp;CLASS CANCELLED DUE TO INSTRUCTOR ILLNESS</h4>
+              </div>
+              <div class="col col-lg-6">
+                <h4>1/16&nbsp;&nbsp;Software Security <a href="/cse227-wi25/lectures/lecture_3.pdf" target="_blank"> [slides] </a></h4>
+                <p> Smashing The Stack For Fun And Profit <a href="https://inst.eecs.berkeley.edu/~cs161/fa08/papers/stack_smashing.pdf" target="_blank"> [link] </a></p>
+                <p> The geometry of innocent flesh on the bone: Return-into-libc without function calls (on the x86)” <a href="./papers/geometry.pdf" target="_blank"> [link] </a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>1/21&nbsp;&nbsp;Side Channels <a href="/cse227-wi25/lectures/lecture_4.pdf" target="_blank"> [slides] </a></h4>
+                <p> Lest We Remember: Cold-Boot Attacks on Encryption Keys <a href="https://dl.acm.org/doi/pdf/10.1145/1506409.1506429" target="_blank"> [link] </a></p>
+                <p> Keyboard Acoustic Emanations Revisited  <a href="https://www.cs.cornell.edu/~shmat/courses/cs6431/zhuang.pdf" target="_blank"> [link] </a></p>
+              </div>
+             <div class="col col-lg-6">
+                <h4>1/23&nbsp;&nbsp;IoT Devices <a href="/cse227-wi25/lectures/lecture_5.pdf" target="_blank"> [slides] </a></h4>
+                <!--<p><b> Readings for today: </b><p>-->
+                <p> Skill Squatting Attacks on Amazon Echo <a href="https://kumarde.com/papers/echosquat.pdf" target="_blank"> [link] </a></p>
+                <p> Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems <a href="https://www.usenix.org/system/files/sec20-sugawara.pdf" target="_blank"> [link] </a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>1/28&nbsp;&nbsp;Web Fundamentals <a href="/cse227-wi25/lectures/lecture_6.pdf" target="_blank"> [slides] </a></h4>
+                <p> Robust Defenses for Cross-Site Request Forgery <a href="https://seclab.stanford.edu/websec/csrf/csrf.pdf" target="_blank"> [link] </a></p>
+                <p> Parse Me, Baby, One More Time: Bypassing HTML Sanitizer via Parsing Differentials.<a href="https://www.ias.cs.tu-bs.de/publications/parsing_differentials.pdf" target="_blank"> [link] </a></p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>1/30&nbsp;&nbsp;Web Tracking <a href="/cse227-wi25/lectures/lecture_7.pdf" target="_blank"> [slides] </a></h4>
+                <p> Internet Jones and the Raiders of the Lost Trackers: An Archaeological Study of Web Tracking from 1996 to 2016<a href="https://www.usenix.org/system/files/sec16_paper_lerner_1.pdf" target="_blank"> [link] </a></p>
+                <p> The Web Never Forgets: Persistent Tracking Mechanisms in the Wild <a href="https://dl.acm.org/doi/pdf/10.1145/2660267.2660347" target="_blank"> [link] </a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>2/4&nbsp;&nbsp;TLS I <a href="/cse227-wi25/lectures/lecture_8.pdf" target="_blank"> [slides] </a></h4>
+                <p> Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices. <a href="https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final228.pdf" target="_blank"> [link] </a></p>
+                <p> [optional] The Security Impact of HTTPS Interception <a href="https://git.safemobile.org/crimeflare/cloudflare-tor/raw/commit/020252c3748c37c4b0f2da47f46b3505f82435fa/pdf/2017-The_Security_Impact_of_HTTPS_Interception.pdf" target="_blank"> [link] </a></p>
+             </div>
+              <div class="col col-lg-6">
+		        <h4>2/6&nbsp;&nbsp;TLS II <a href="/cse227-wi25/lectures/lecture_9.pdf" target="_blank"> [slides] </a></h4>
+                <p> The Most Dangerous Code in the World: Validating SSL Certificates in Non-Browser Software <a href="https://www.cs.utexas.edu/~shmat/shmat_ccs12.pdf" target="_blank"> [link] </a></p>
+                <p> Tracking Certificate Misissuance in the Wild <a href="https://zakird.com/papers/zlint.pdf" target="_blank"> [link] </a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>2/11&nbsp;&nbsp;DDoS & Botnets <a href="/cse227-wi25/lectures/lecture_10.pdf" target="_blank"> [slides] </a></h4>
+                <p> Inferring Internet Denial-of-Service Activity <a href="https://www.usenix.org/legacy/events/sec01/moore/moore.pdf" target="_blank"> [link] </a></p>
+                <p>Understanding the Mirai Botnet<a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf" target="_blank"> [link] </a></p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>2/13&nbsp;&nbsp;DNS <a href="/cse227-wi25/lectures/lecture_11.pdf"> [slides] </a></h4>
+                <p> How DNS Works <a href="https://www.cloudflare.com/learning/dns/what-is-dns/" target="_blank"> [link] </a></p>
+                <p> An Illustrated Guide to the Kaminsky DNS Vulnerability <a href="http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html" target="_blank"> [link] </a></p>
+              </div>
+            </div>
+           <div class="row">
+              <div class="col col-lg-6">
+                  <h4>2/18&nbsp;&nbsp;Network Censorship <a href="/cse227-wi25/lectures/lecture_12.pdf"> [slides] </a></h4>
+                <p> Censored Planet: An Internet-wide, Longitudinal Censorship Observatory 
+<a href="https://dl.acm.org/doi/pdf/10.1145/3372297.3417883" target="_blank"> [link] </a></p>
+                <p> Throttling Twitter: An Emerging Censorship Technique in Russia <a href="https://dl.acm.org/doi/pdf/10.1145/3487552.3487858" target="_blank"> [link] </a></p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>2/20&nbsp;&nbsp;No class</h4>
+                <p><b> Class is cancelled today. Meet with your project partners!</b></p>
+              </div>
+           </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>2/25&nbsp;&nbsp;Spam and e-Crime</h4>
+                <p> Click trajectories: End-to-end analysis of the spam value chain <a href="https://cseweb.ucsd.edu/~savage/papers/Oakland11.pdf" target="_blank"> [link] </a></p>
+                <p> Re: CAPTCHAs – Understanding CAPTCHA-Solving Services in an Economic Context <a href="https://cseweb.ucsd.edu/~savage/papers/UsenixSec10.pdf" target="_blank"> [link] </a></p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>2/27&nbsp;&nbsp;Usability and Human Factors</h4>
+                <p> Why Johnny Can’t Encrypt: A Usability Evaluation of PGP 5.0<a href="https://people.eecs.berkeley.edu/~tygar/papers/Why_Johnny_Cant_Encrypt/USENIX.pdf" target="_blank"> [link] </a></p>
+                <p> Alice in Warningland: A Large-Scale Field Study of Browser Security Warning Effectiveness <a href="https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41323.pdf" target="_blank"> [link] </a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>3/4&nbsp;&nbsp;Security & Society</h4>
+                <p> [Optional] Sok: Hate, harassment, and the changing landscape of online abuse. <a href="https://kumarde.com/papers/abuse_sok.pdf" target="_blank"> [link] </a></p>
+                <p> [Optional] Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites <a href="https://dl.acm.org/doi/pdf/10.1145/3359183" target="_blank"> [link] </a></p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>3/6&nbsp;&nbsp;Ethics</h4>
+                <p> Ethical frameworks and computer security trolley problems: Foundations for conversations<a href="https://www.usenix.org/conference/usenixsecurity23/presentation/kohno" target="_blank"> [link] </a></p>
+                <p> [Optional] The moral character of cryptographic work <a href="https://eprint.iacr.org/2015/1162.pdf" target="_blank"> [link] </a></p>
+              </div>
+            </div>
+			<div class="row">
+              <div class="col col-lg-6">
+                <h4>3/11&nbsp;&nbsp;Research Project Presentations</h4>
+                <p>Presentations on the quarter-long project.</p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>3/13&nbsp;&nbsp;Research Project Presentations</h4>
+                <p>Presentations on the quarter-long project.</p>
+              </div>
+            </div>
+          </div>
+
+          <h2>Course Structure</h2>
+
+		  <p> This is a discussion oriented research course. Students will be responsible for reading and discussing papers in class and working on a quarter-long project in groups of 3-4. Grading is based on the following components:
+          
+          <p style="padding-top: 10px"><b>Attendance (5%)</b></p>
+          <p> Attendance is mandatory in class and constitutes 5% of your grade. You can miss up to 2 classes without penalty and without needing to justify your absence to me. If you have additional conflicts, please contact me directly.</p>
+
+          <p style="padding-top: 10px"><b>Participation (20%)</b></p>
+          <p> Most class sessions will be structured as a discussion-forward lecture run by me. The primary mechanism for discussion is through cold calls, which are random calls to students to answer questions. These questions are a mix of testing comprehension of the reading material as well as getting students talking and discussing the topics in each paper. You get 3 “passes” over the quarter where you can skip the question if you have not read the paper. The expectation is that you will have read the papers in advance. If you have not read the paper in advance, you must disclose this when called on. Violations of this policy amount to an Academic Integrity violation. </p>
+
+          <p style="padding-top: 10px"><b>Term Project (75%)</b> <a href="./cse227_project_spec.pdf" target="_blank">[You can find the project specification here.]</a></p>
+		  <p> Students will work on an independent research project over the term in groups of 3-4, which will culminate in a project presentation and small (~5 page) writeup. The grade is divided into several subparts:
+          <ul>
+              <li><b> Project Intention Form (10%)</b> – This form will commit your group members and the general project direction you are going in. <b>Due 1/17 by EOD. Fill out the form here: <a href="https://forms.gle/3efhZJAmfG9Gv4xF8" target="_blank"> https://forms.gle/3efhZJAmfG9Gv4xF8</a></b></li>
+              <li><b> Midpoint Check-In Document and Meeting (15%)</b> – This 2-page document describes your current status on the project and will serve as the basis for our meeting where we discuss more about the project in detail. <b>Due 2/14 by EOD.</b> You can sign up for a slot to meet with me here: <a href="https://calendly.com/kumarde/cse-227-project-meeting">[Meeting scheduling link]</a></li>
+              <li><b> Final Presentation (25%)</b> – This 15 minute presentation will be given in the final week of the quarter. Schedule is here: <a href="https://docs.google.com/spreadsheets/d/1wQgq_DkE4pgg6r1gCyXtvS0-AFbn9_IU6l1ns9pgduo/edit?usp=sharing" target="_blank">[Schedule]</a></li>
+              <li><b> Final Writeup (25%)</b> – This 5-page document describes the work completed over the quarter and the project.</li>
+          </ul>
+	      </p>
+          <br/><br/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
